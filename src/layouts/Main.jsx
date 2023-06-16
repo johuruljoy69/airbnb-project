@@ -3,7 +3,7 @@
 const Main = () => {
     return (
         <div>
-            <h2>Main Layout page</h2>
+            <h1>Welcome TO Airbnb</h1>
         </div>
     );
 };
