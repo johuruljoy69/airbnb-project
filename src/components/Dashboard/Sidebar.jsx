@@ -4,6 +4,9 @@ import { GrLogout } from 'react-icons/gr'
 import { FcSettings } from 'react-icons/fc'
 import { AiOutlineBars } from 'react-icons/ai'
 import { AuthContext } from '../../contexts/AuthProvider'
+import HostMenu from './HostMenu'
+import GuestMenu from './GuestMenu'
+import Logo from '../Shared/Navbar/logo'
 
 const Sidebar = () => {
   const navigate = useNavigate()
