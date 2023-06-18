@@ -6,6 +6,7 @@ import { TbFidgetSpinner } from 'react-icons/tb'
 import { AuthContext } from '../../contexts/AuthProvider'
 import { saveUser } from '../../api/auth'
 
+
 const SignUp = () => {
   const {
     loading,
