@@ -1,7 +1,7 @@
+import React from 'react'
 import { DateRange } from 'react-date-range'
 import { TbFidgetSpinner } from 'react-icons/tb'
-import { CategoriesData } from '../Categories/CategoriesData'
-
+import { categories } from '../Categories/categoriesData'
 const AddRoomForm = ({
   handleSubmit,
   dates,
@@ -38,7 +38,7 @@ const AddRoomForm = ({
                 className='w-full px-4 py-3 border-rose-300 focus:outline-rose-500 rounded-md'
                 name='category'
               >
-                {CategoriesData.map(category => (
+                {categories.map(category => (
                   <option value={category.label} key={category.label}>
                     {category.label}
                   </option>

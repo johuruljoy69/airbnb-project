@@ -15,4 +15,4 @@ const DatePicker = ({ value, handleSelect }) => {
   )
 }
 
-export default DatePicker;
+export default DatePicker

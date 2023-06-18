@@ -1,6 +1,8 @@
-import Header from "../../components/Rooms/Header"
-import Container from "../../components/Shared/Navbar/Container"
-
+import { useLoaderData } from 'react-router-dom'
+import Container from '../../components/Shared/Container'
+import Header from '../../components/Rooms/Header'
+import RoomInfo from '../../components/Rooms/RoomInfo'
+import RoomReservation from '../../components/Rooms/RoomReservation'
 
 const RoomDetails = () => {
   const roomData = useLoaderData()

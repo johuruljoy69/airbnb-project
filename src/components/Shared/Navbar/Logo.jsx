@@ -1,18 +1,18 @@
 import { Link } from 'react-router-dom'
-import logo from '../../../assets/images/logo.png'
+import logoImg from '../../../assets/images/logo.png'
 
 const Logo = () => {
-    return (
-        <Link to='/'>
+  return (
+    <Link to='/'>
       <img
         className='hidden md:block'
-        src={logo}
+        src={logoImg}
         alt='logo'
         width='100'
         height='100'
       />
     </Link>
-    );
-};
+  )
+}
 
-export default Logo;
+export default Logo

@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import HeartButton from '../Button/HeartButton'
 
-
 const Card = ({ room }) => {
   return (
     <Link to={`/room/${room._id}`} className='col-span-1 cursor-pointer group'>

@@ -1,5 +1,5 @@
-import Heading from "../Heading/Heading"
-
+import React from 'react'
+import Heading from '../Heading/Heading'
 
 const Header = ({ roomData }) => {
   return (

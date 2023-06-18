@@ -1,11 +1,10 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
 import { FcGoogle } from 'react-icons/fc'
-import { useContext } from 'react'
+import { useContext, useRef } from 'react'
+import { AuthContext } from '../../providers/AuthProvider'
 import { TbFidgetSpinner } from 'react-icons/tb'
-import { AuthContext } from '../../contexts/AuthProvider'
 import { saveUser } from '../../api/auth'
-
 
 const SignUp = () => {
   const {
@@ -32,7 +31,7 @@ const SignUp = () => {
     formData.append('image', image)
 
     const url = `https://api.imgbb.com/1/upload?key=${
-      import.meta.env.VITE_Image_Upload_token
+      import.meta.env.VITE_IMGBB_KEY
     }`
     fetch(url, {
       method: 'POST',

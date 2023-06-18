@@ -3,11 +3,10 @@ import { NavLink } from 'react-router-dom'
 import { BsFingerprint } from 'react-icons/bs'
 import { GrUserAdmin } from 'react-icons/gr'
 import { useContext } from 'react'
-import { toast } from 'react-hot-toast'
-import { AuthContext } from '../../contexts/AuthProvider'
-import { becomeHost } from '../../api/auth'
+import { AuthContext } from '../../providers/AuthProvider'
 import HostModal from '../Modal/HostRequestModal'
-
+import { becomeHost } from '../../api/auth.js'
+import { toast } from 'react-hot-toast'
 const GuestMenu = () => {
   const { role, user, setRole } = useContext(AuthContext)
   const [modal, setModal] = useState(false)
