@@ -3,8 +3,9 @@ import toast from 'react-hot-toast'
 import { FcGoogle } from 'react-icons/fc'
 import { useContext, useRef } from 'react'
 import { TbFidgetSpinner } from 'react-icons/tb'
-import { AuthContext } from '../../../contexts/AuthProvider'
-import { saveUser } from '../../../api/auth'
+import { AuthContext } from '../../contexts/AuthProvider'
+import { saveUser } from '../../api/auth'
+
 
 const Login = () => {
   const { loading, setLoading, signIn, signInWithGoogle, resetPassword } =
