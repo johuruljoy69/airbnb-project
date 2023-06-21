@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from '../../components/Button/Button'
 import { Link } from 'react-router-dom'
 const EmptyState = ({ message, address, label }) => {

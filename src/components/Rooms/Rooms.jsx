@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Container from '../Shared/Container'
 import Card from './Card'
 import Loader from '../Shared/Loader'
