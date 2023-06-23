@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import { useContext, useState } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../../providers/AuthProvider'
 import Logo from '../Shared/Navbar/Logo'

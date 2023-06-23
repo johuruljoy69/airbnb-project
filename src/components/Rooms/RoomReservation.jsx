@@ -42,7 +42,7 @@ const RoomReservation = ({ roomData }) => {
     image: roomData.image,
   })
   const handleSelect = ranges => {
-    setValue({ ...value })
+    setValue({ ...ranges })
   }
 
   // const modalHandler = () => {

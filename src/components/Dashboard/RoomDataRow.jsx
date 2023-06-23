@@ -1,12 +1,13 @@
 import { format } from 'date-fns'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import toast from 'react-hot-toast'
 import { deleteRoom } from '../../api/rooms'
 import DeleteModal from '../Modal/DeleteModal'
 import UpdateRoomModal from '../Modal/UpdateRoomModal'
 
 const RoomDataRow = ({ room, refetch }) => {
-  let [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+  const [isEditModalOpen, setIsEditModalOpen] = useState(false);
 
   function openModal() {
     setIsOpen(true)

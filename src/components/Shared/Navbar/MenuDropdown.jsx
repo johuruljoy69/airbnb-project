@@ -1,6 +1,6 @@
 import { AiOutlineMenu } from 'react-icons/ai'
 import Avatar from './Avatar'
-import { useCallback, useContext, useState } from 'react'
+import {  useContext, useState } from 'react'
 import { AuthContext } from '../../../providers/AuthProvider'
 import { Link, useNavigate } from 'react-router-dom'
 import HostModal from '../../Modal/HostRequestModal'
@@ -28,7 +28,7 @@ const MenuDropdown = () => {
   return (
     <div className='relative'>
       <div className='flex flex-row items-center gap-3'>
-        {/* Aircnc btn */}
+        {/* Airbnb btn */}
         <div className='hidden md:block'>
           {!role && (
             <button
