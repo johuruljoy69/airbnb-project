@@ -36,7 +36,7 @@ const MenuDropdown = () => {
               onClick={() => setModal(true)}
               disabled={!user}
             >
-              AirCNC your home
+              Airbnb your home
             </button>
           )}
         </div>
