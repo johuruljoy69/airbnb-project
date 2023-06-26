@@ -1,12 +1,12 @@
-# Airbnb | International Hotel booking Website
+# Airbnb | International Hotel Booking Website
 ## Live link: https://airbnb-project-d0c40.web.app/
 
 ## Features
-1. This website will be access Admins/Hosts, Customers/users
-2. Hosts manage their uploading hotel information
+1. This website will be accessed by Admins/Hosts, Customers/users
+2. Hosts manage their uploading of hotel information
 3. Hosts can update and delete their Hotel information data
-4. Customers can choose and reserve their selected hotel in the website
-5. Customers get access his/her dashboard when sign/login
+4. Customers can choose and reserve their selected hotel on the website
+5. Customers get access his/her dashboard when sign/log in
 6. After Payment Customer can show payment history and booking hotel room information
 
 ## Technology used
