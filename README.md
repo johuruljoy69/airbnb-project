@@ -1,5 +1,6 @@
 # Airbnb | International Hotel Booking Website
 ## Live link: https://airbnb-project-d0c40.web.app/
+## Server link: https://github.com/johuruljoy69/airbnb-project-server
 
 ## Features
 1. This website will be accessed by Admins/Hosts, Customers/users
